@@ -10,6 +10,8 @@
     --color-red-600: oklch(0.577 0.245 27.325);
     --color-yellow-400: oklch(0.852 0.199 91.936);
     --color-emerald-400: oklch(0.765 0.177 163.223);
+    --color-indigo-400: oklch(0.673 0.182 276.935);
+    --color-purple-600: oklch(0.558 0.288 302.321);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -2140,6 +2142,34 @@
       content: var(--tw-content);
       --tw-content: '';
       content: var(--tw-content);
+    }
+  }
+  .hover\:bg-purple-600 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-purple-600);
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
+      }
+    }
+  }
+  .hover\:text-indigo-400 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-indigo-400);
+      }
+    }
+  }
+  .hover\:text-purple-600 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-purple-600);
+      }
     }
   }
   .hover\:before\:bg-red-500 {
